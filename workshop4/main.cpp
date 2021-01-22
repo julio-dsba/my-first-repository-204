@@ -1,10 +1,13 @@
 #include <iostream>
 
-using namespace std;
+void secondBranch()
+{
+    std :: cout << "This is the second branch!" << std :: endl;
+}
 
 int main()
 {
-    cout << "Hello World Once More!" << endl;
+    std :: cout << "Hello World Once More!" << std :: endl;
     return 0;
 }
 
